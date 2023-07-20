@@ -1,0 +1,33 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* You may adjust this depending on your needs. */
+}
+
+.rectangle {
+  display: flex;
+  width: 400px;  /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+}
+
+.quarter {
+  flex: 1;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: rgb(218, 218, 66);
+}
+
+.green {
+  background-color: green;
+}

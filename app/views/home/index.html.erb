@@ -1,0 +1,17 @@
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+
+<div class="flex-container">
+  <h1>WELCOME TO SIMON SAYS</h1>
+  <div class="rectangle">
+    <div id="red" class="quarter red"></div>
+    <div id="blue" class="quarter blue"></div>
+    <div id="yellow" class="quarter yellow"></div>
+    <div id="green" class="quarter green"></div>
+  </div>
+  Level: <div id="level-display">0</div>
+<button id="start-game">Start Game</button>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<%= javascript_include_tag 'simon_says' %>

@@ -3,12 +3,11 @@ $(document).ready(function() {
   let order = [];
   let userOrder = [];  // To hold the user's input sequence
   let colors = ["yellow", "red", "green", "blue"];
-  
+
   function startGame() {
     level = 0;
     nextLevel();
   }
-  
   function flashColor(color) {
     $("#" + color)
       .animate({ opacity: 0.1 }, 300)
